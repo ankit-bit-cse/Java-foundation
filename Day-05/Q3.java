@@ -1,12 +1,13 @@
 class Q3 {
 
-  static void sum(int a,int b) {
+  static int sum(int a,int b) {
     int c = a+b;
-    System.out.println(c);
+    // System.out.println(c);
+    return c;
   }
 
     public static void main(String[] args) {
-        sum(10,20);
-
+        int result = sum(10,20);
+                System.out.println("result is:--"+result);
     }
 }
